@@ -1,9 +1,9 @@
 
- Customer Purchase Prediction using Decision Tree Classifier
+## Customer Purchase Prediction using Decision Tree Classifier
 
 This project uses a Decision Tree Classifier to predict whether a customer will make a purchase or not based on demographic and behavioral data  from online shoppers.
 
-📁 Dataset
+# Dataset
 
 * Name: `online_shoppers_intention.csv`
 * Source: Kaggle
@@ -16,12 +16,12 @@ This project uses a Decision Tree Classifier to predict whether a customer will 
   * OperatingSystems, Browser, Region, TrafficType
 
 
- Objective
+ # Objective
 
 Build a predictive model that can classify whether a visitor will make a purchase or not using their session behavior and other contextual attributes.
 
 
-Steps Performed
+# Steps Performed
 
 1. Data Preprocessing
 
@@ -48,7 +48,7 @@ Steps Performed
    * Visualized the trained Decision Tree
 
 
-  Key Insights
+ # Key Insights
 
 * `PageValues`, `ProductRelated_Duration`, and `ExitRates` are top predictors of purchases.
 * Returning visitors are more likely to buy than new users.
@@ -56,7 +56,7 @@ Steps Performed
 * Purchases are higher in specific months, indicating seasonal shopping trends.
 
 
- Business Recommendations
+ # Business Recommendations
 
 * Improve product-related page content to boost engagement.
 * Focus marketing efforts on returning visitors.
@@ -64,8 +64,7 @@ Steps Performed
 * Reduce bounce rates with better landing page experiences.
 
 
- Technologies Used
-
+ # Technologies Used
 * Python 
 * Libraries: `pandas`, `numpy`, `matplotlib`, `seaborn`, `sklearn`
 
